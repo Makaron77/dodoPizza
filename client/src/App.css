@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'DodoRounded';
+  src: url('/fonts/dodoRounded/DodoRounded_v2-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DodoRounded';
+  src: url('/fonts/dodoRounded/DodoRounded_v2-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DodoRounded';
+  src: url('/fonts/dodoRounded/DodoRounded_v2-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DodoRounded';
+  src: url('/fonts/dodoRounded/DodoRounded_v2-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DodoRounded';
+  src: url('/fonts/dodoRounded/DodoRounded_v2-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DodoRounded';
+  src: url('/fonts/dodoRounded/DodoRounded_v2-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

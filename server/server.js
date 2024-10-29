@@ -3,7 +3,10 @@ const path = require('path');
 const cors = require('cors');
 require('dotenv').config();
 
+
+
 const app = express();
+const routes = require('./routes/index')
 
 app.use(
 	cors({
@@ -17,6 +20,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/api', routes);
 
 app.listen(PORT, () => {
 	console.log(`Сервер работает на порту ${PORT}`);
