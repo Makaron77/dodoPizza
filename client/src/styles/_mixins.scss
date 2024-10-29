@@ -1,0 +1,23 @@
+// Определение миксина
+/* @mixin button($bg-color, $text-color) {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: $bg-color;
+  color: $text-color;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+} */
+
+// Использование миксина
+/* .button-primary {
+  @include button(#3498db, white);
+}
+
+.button-secondary {
+  @include button(#2ecc71, black); */
+/* } */
