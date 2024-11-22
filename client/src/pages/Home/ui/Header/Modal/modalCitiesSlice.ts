@@ -1,7 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-
 interface ICity {
 	id: number;
 	name: string;
@@ -38,8 +37,7 @@ const citySlice = createSlice({
 				fetchGetCities.fulfilled,
 				(state, action: PayloadAction<ICity[]>) => {
 					state.cities = action.payload;
-					
-					
+
 					state.loading = false;
 				},
 			)

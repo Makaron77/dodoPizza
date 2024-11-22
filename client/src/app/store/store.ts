@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import citiesSlice from '../cities/citiesSlice'
+import citiesSlice from '../../pages/Home/ui/Header/Modal/modalCitiesSlice'
 
 const store = configureStore({
 	reducer: {
