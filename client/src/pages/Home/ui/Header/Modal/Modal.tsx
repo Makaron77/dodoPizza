@@ -1,9 +1,9 @@
-import Popup from '@/shared/ui/Popup/popup';
+import Popup from '../../../../../shared/ui/Popup/Popup';
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './Modal.module.scss';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { fetchGetCities } from './modalCitiesSlice';
-import { useAppDispatch, useAppSelector } from '@/shared/hooks/RTKHooks/useAppDispatchAndUseAppSelector';
+import { useAppDispatch, useAppSelector } from './../../../../../hooks/RTKHook/RTKHook';
 
 export default function Modal({ city, setCity, active, setActive }) {
 	const modalRef = useRef(null);
