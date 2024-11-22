@@ -15,6 +15,30 @@ function App() {
 					</div>
 				}
 			/>
+			<Route
+				path='/moscow'
+				element={
+					<div>
+						<Home />
+					</div>
+				}
+			/>
+			<Route
+				path='/peterburg'
+				element={
+					<div>
+						<Home />
+					</div>
+				}
+			/>
+			<Route
+				path='/obninsk'
+				element={
+					<div>
+						<Home />
+					</div>
+				}
+			/>
 		</Routes>
 	);
 }

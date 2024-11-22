@@ -1,0 +1,41 @@
+	.popupActions {
+		position: relative;
+		padding: 10px 46px 30px;
+		// .popupSearch {
+		// 	.popupInputSearch {
+		// 		padding: 0 15px 0 40px;
+		// 		position: relative;
+		// 		width: 293px;
+		// 		height: 40px;
+		// 		border-radius: 8px;
+		// 		border: 1px solid rgba(92, 99, 112, 0.32);
+		// 		font-size: 16px;
+		// 		line-height: 40px;
+		// 		transition: border-color 0.2s;
+		// 		&:focus {
+		// 			border: 1px solid rgb(255, 105, 0);
+		// 		}
+		// 	}
+		// 	.searchSvg {
+		// 		position: absolute;
+		// 		left: 55px;
+		// 		top: 20px;
+		// 	}
+		// }
+		.popupBigCity {
+			margin-top: 15px;
+			a {
+				text-decoration: none;
+				font-weight: 500;
+				font-size: 22px;
+				margin-right: 20px;
+				color: black;
+				&:visited {
+					color: black;
+				}
+				&:hover {
+					color: rgb(255, 105, 0);
+				}
+			}
+		}
+	}

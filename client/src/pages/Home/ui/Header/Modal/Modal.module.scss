@@ -1,64 +1,7 @@
-	.popupHeader {
-		padding: 32px 46px 18px;
-		display: flex;
-		.popupLogo {
-			width: 50px;
-			height: 50px;
-			margin-right: 10px;
-			background-image: url(https://dodopizza.ru/dist/assets/2bcb3480b766af56aac1..svg);
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-		.headerTitle {
-			font-size: 36px;
-			margin: 2px 0px;
-			white-space: nowrap;
-			font-weight: 500;
-		}
-	}
-	.popupActions {
-		position: relative;
-		padding: 10px 46px 30px;
-		.popupSearch {
-			.popupInputSearch {
-				padding: 0 15px 0 40px;
-				position: relative;
-				width: 293px;
-				height: 40px;
-				border-radius: 8px;
-				border: 1px solid rgba(92, 99, 112, 0.32);
-				font-size: 16px;
-				line-height: 40px;
-				transition: border-color 0.2s;
-				&:focus {
-					border: 1px solid rgb(255, 105, 0);
-				}
-			}
-			.searchSvg {
-				position: absolute;
-				left: 55px;
-				top: 20px;
-			}
-		}
-		.popupBigCity {
-			margin-top: 15px;
-			a {
-				text-decoration: none;
-				font-weight: 500;
-				font-size: 22px;
-				margin-right: 20px;
-				color: black;
-				&:visited {
-					color: black;
-				}
-				&:hover {
-					color: rgb(255, 105, 0);
-				}
-			}
-		}
-	}
+	
 	.popupContent {
 		height: 370px;
+		min-width: 1020px;
 
 		margin-top: 5px;
 		padding-left: 46px;
@@ -142,7 +85,8 @@
 							text-overflow: ellipsis;
 							overflow: hidden;
 							color: black;
-							width: 330px;
+							width: 261px;
+							
 						}
 					}
 				}
@@ -151,7 +95,7 @@
 			.scrollGradientBottom {
 				transform: translateY(0px) translateZ(0px);
 				opacity: 1;
-				bottom: 15px;
+				bottom: 18px;
 
 				background: linear-gradient(
 					180deg,

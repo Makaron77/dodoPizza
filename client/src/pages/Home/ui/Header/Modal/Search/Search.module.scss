@@ -1,0 +1,23 @@
+.popupSearch {
+		position: relative;
+		padding: 10px 46px 30px;
+			.popupInputSearch {
+				padding: 0 15px 0 40px;
+				position: relative;
+				width: 293px;
+				height: 40px;
+				border-radius: 8px;
+				border: 1px solid rgba(92, 99, 112, 0.32);
+				font-size: 16px;
+				line-height: 40px;
+				transition: border-color 0.2s;
+				&:focus {
+					border: 1px solid rgb(255, 105, 0);
+				}
+			}
+			.searchSvg {
+				position: absolute;
+				left: 55px;
+				top: 20px;
+			}
+		}
